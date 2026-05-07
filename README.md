@@ -68,11 +68,4 @@ Depending on the script, outputs are written under `--output_dir` and may includ
 - GPU is used automatically if available; otherwise CPU is used.
 - Ensure dataset protocol and embedding paths are configured correctly before running.
 - Large model artifacts (`.pth`) should not be committed to Git unless intentionally versioned.
-
-## Suggested GitHub Repository Description
-
-Code implementation for the IEEE paper "[Joint Optimization of Speaker and Spoof Detectors for Spoofing-Robust Automatic Speaker Verification](https://ieeexplore.ieee.org/document/11499447)", including modular SASV pipelines and shared aDCF utilities.
-
-## Publishing
-
-Use `PUBLISH_CHECKLIST.md` for direct publish steps.
+- Model embeddings should be extracted using the corresponding models, whose GitHub links are provided in the paper.

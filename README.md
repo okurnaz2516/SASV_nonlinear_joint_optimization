@@ -69,3 +69,9 @@ Depending on the script, outputs are written under `--output_dir` and may includ
 - Ensure dataset protocol and embedding paths are configured correctly before running.
 - Large model artifacts (`.pth`) should not be committed to Git unless intentionally versioned.
 - Model embeddings should be extracted using the corresponding models, whose GitHub links are provided in the paper.
+
+## Citation
+
+If you use this repository, please cite:
+
+O. Kurnaz, J. Mishra, T. H. Kinnunen and C. Hanilçi, "Joint Optimization of Speaker and Spoof Detectors for Spoofing-Robust Automatic Speaker Verification," in IEEE Transactions on Audio, Speech and Language Processing, doi: 10.1109/TASLPRO.2026.3688932
